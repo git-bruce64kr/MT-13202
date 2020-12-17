@@ -130,15 +130,15 @@ channel_FVR_Buffer2 63
 [v _getTempFromSensor getTempFromSensor `(us  1 e 2 0 ]
 "598
 [v _ADC_CalcAvg ADC_CalcAvg `(us  1 e 2 0 ]
-"624
+"623
 [v _getMax getMax `(us  1 e 2 0 ]
-"691
+"690
 [v _battMeasure battMeasure `(uc  1 e 1 0 ]
-"717
+"716
 [v _battDisplay battDisplay `(v  1 e 1 0 ]
-"777
+"776
 [v _testDisplay testDisplay `(v  1 e 1 0 ]
-"801
+"800
 [v _buzzer buzzer `(v  1 e 1 0 ]
 "63 D:\works\MPLABXProjects\MT-13202-1.X\mcc_generated_files/adcc.c
 [v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
@@ -1306,12 +1306,12 @@ channel_FVR_Buffer2 63
 [v main@nextReadAddress nextReadAddress `uc  1 a 1 5 ]
 "251
 } 0
-"777
+"776
 [v _testDisplay testDisplay `(v  1 e 1 0 ]
 {
-"787
+"786
 [v testDisplay@j j `uc  1 a 1 4 ]
-"799
+"798
 } 0
 "253
 [v _setMode setMode `(v  1 e 1 0 ]
@@ -1555,14 +1555,14 @@ channel_FVR_Buffer2 63
 [v LCD_NO_3_SYM07Num@num num `uc  1 a 1 2 ]
 "264
 } 0
-"801 D:\works\MPLABXProjects\MT-13202-1.X\main.c
+"800 D:\works\MPLABXProjects\MT-13202-1.X\main.c
 [v _buzzer buzzer `(v  1 e 1 0 ]
 {
 [v buzzer@count count `uc  1 a 1 wreg ]
 [v buzzer@count count `uc  1 a 1 wreg ]
-"803
+"802
 [v buzzer@count count `uc  1 a 1 1 ]
-"805
+"804
 } 0
 "139 D:\works\MPLABXProjects\MT-13202-1.X\mcc_generated_files/lcd.c
 [v _LCD_Disable LCD_Disable `(v  1 e 1 0 ]
@@ -1604,19 +1604,19 @@ channel_FVR_Buffer2 63
 {
 "216
 } 0
-"717 D:\works\MPLABXProjects\MT-13202-1.X\main.c
+"716 D:\works\MPLABXProjects\MT-13202-1.X\main.c
 [v _battDisplay battDisplay `(v  1 e 1 0 ]
 {
-"775
+"774
 } 0
-"691
+"690
 [v _battMeasure battMeasure `(uc  1 e 1 0 ]
 {
-"694
-[v battMeasure@batt batt `f  1 a 4 39 ]
 "693
+[v battMeasure@batt batt `f  1 a 4 39 ]
+"692
 [v battMeasure@pre_percent pre_percent `l  1 a 4 35 ]
-"716
+"715
 } 0
 "10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]

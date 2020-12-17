@@ -21470,15 +21470,14 @@ adc_result_t ADC_CalcAvg(adcc_channel_t channel)
 
 adc_result_t ADC_CalcMax(adcc_channel_t channel)
 {
-
-    uint16_t getADC[10] = {0};
-    for(uint8_t i=0; i<10 ; i++)
+    uint16_t getADC[20] = {0};
+    for(uint8_t i=0; i<20 ; i++)
     {
         _delay((unsigned long)((10)*(1000000/4000.0)));
         getADC[i] = ADCC_GetSingleConversion(channel);
 
     }
-    return(getMax(getADC, 10));
+    return(getMax(getADC, 20));
 }
 uint16_t getMax( uint16_t *arr, uint8_t len)
 {
@@ -21521,7 +21520,7 @@ uint16_t getMiddle( uint16_t list[], uint8_t len)
     }
     return(list[len/2]);
 }
-# 683 "main.c"
+# 682 "main.c"
 static uint16_t battMinLevel = 1320;
 
 
@@ -21558,7 +21557,7 @@ uint8_t battMeasure(void)
 }
 void battDisplay(void)
 {
-# 742 "main.c"
+# 741 "main.c"
     battMeasure();
 
 

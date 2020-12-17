@@ -611,15 +611,14 @@ adc_result_t ADC_CalcAvg(adcc_channel_t channel)
 
 adc_result_t ADC_CalcMax(adcc_channel_t channel) 
 {
-    
-    uint16_t getADC[10] = {0};
-    for(uint8_t i=0; i<10 ; i++)
+    uint16_t getADC[20] = {0};
+    for(uint8_t i=0; i<20 ; i++)
     {
         __delay_ms(10);
         getADC[i] = ADCC_GetSingleConversion(channel);
         
     }
-    return(getMax(getADC, 10));
+    return(getMax(getADC, 20));
 }
 uint16_t getMax( uint16_t *arr, uint8_t len)
 {
